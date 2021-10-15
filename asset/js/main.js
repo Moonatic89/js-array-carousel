@@ -23,3 +23,21 @@ const text = [
     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
     'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
 ];
+
+// Create button
+const btnPlus = document.getElementById("plus");
+const btnMinus = document.getElementById("minus");
+let carouselIndex = 1;
+//Add event listeners
+btnPlus.addEventListener("click", indexPlus); ///Change function
+btnMinus.addEventListener("click", indexMinus); ///Change function
+
+//Function indexPlus
+
+function indexPlus() {
+
+}
+
+function indexMinus() {
+
+}
