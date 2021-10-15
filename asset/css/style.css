@@ -36,6 +36,7 @@
 
 .upBtn, .dwnBtn {
     right: 8%;
+    z-index: 1;
 }
 
 .upBtn {
@@ -76,6 +77,13 @@
     object-fit: cover;
 }
 
+.showcaseDesc {
+    bottom: 5%;
+    right: 2.5%;
+    text-align: right;
+    color: white;
+}
+
 .col {
     height: 100px;
 }
@@ -88,4 +96,13 @@
 .container {
     width: 15%;
     min-height: 100px;
+    background-color: black;
+}
+
+.overlay {
+    opacity: .5;
+}
+
+.customBord {
+    border: 3px solid lightgray;
 }
