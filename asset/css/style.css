@@ -28,7 +28,38 @@
     position: relative;
 }
 
+.pos_abs {
+    position: absolute;
+}
+
 /* #endregion */
+
+.upBtn, .dwnBtn {
+    right: 8%;
+}
+
+.upBtn {
+    top: 5%;
+}
+
+.dwnBtn {
+    bottom: 5%;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#plus, #minus {
+    text-decoration: none;
+    color: black;
+}
 
 .carousel {
     height: 500px;
