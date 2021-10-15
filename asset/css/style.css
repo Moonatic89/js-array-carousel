@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* i just wanted to use float for good practice */
+
+.clearfix::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/* #region Framework */
+
+.f_l {
+    float: left;
+}
+
+.d_flex {
+    display: flex;
+}
+
+/* #endregion */
+
+.showcase {
+    width: 85%;
+    min-height: 100px;
+    background-color: aqua;
+}
+
+.container {
+    width: 15%;
+    min-height: 100px;
+    background-color: blueviolet;
+}
+
+.col {
+    border: 1px solid black;
+}
