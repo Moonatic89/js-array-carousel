@@ -71,7 +71,7 @@
     min-height: 100px;
 }
 
-.showcase>img {
+.imgContainer>img {
     height: 500px;
     width: 100%;
     object-fit: cover;
