@@ -20,22 +20,41 @@
 
 .d_flex {
     display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.pos_rel {
+    position: relative;
 }
 
 /* #endregion */
 
+.carousel {
+    height: 500px;
+}
+
 .showcase {
     width: 85%;
     min-height: 100px;
-    background-color: aqua;
+}
+
+.showcase>img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.col {
+    height: 100px;
+}
+
+.col>img {
+    width: 100%;
+    height: 100px;
 }
 
 .container {
     width: 15%;
     min-height: 100px;
-    background-color: blueviolet;
-}
-
-.col {
-    border: 1px solid black;
 }
